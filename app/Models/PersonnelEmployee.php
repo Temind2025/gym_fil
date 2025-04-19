@@ -14,6 +14,7 @@ class PersonnelEmployee extends Model
         'emp_code',
         'is_active',
         'hire_date',
+        'status'
 
     ];
     const CREATED_AT = 'create_time';

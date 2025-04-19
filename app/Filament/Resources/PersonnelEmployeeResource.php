@@ -28,6 +28,7 @@ class PersonnelEmployeeResource extends Resource
                 Forms\Components\TextInput::make('first_name'),
                 Forms\Components\TextInput::make('last_name'),
                 Forms\Components\DatePicker::make('hire_date'),
+                Forms\Components\TextInput::make('status'),
                 Forms\Components\TextInput::make('is_active'),
             ]);
     }
@@ -40,6 +41,7 @@ class PersonnelEmployeeResource extends Resource
                 Tables\Columns\TextColumn::make('first_name'),
                 Tables\Columns\TextColumn::make('last_name'),
                 Tables\Columns\TextColumn::make('hire_date'),
+                Tables\Columns\TextColumn::make('status'),
                 Tables\Columns\TextColumn::make('is_active'),
             ])
             ->filters([
